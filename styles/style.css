@@ -212,3 +212,43 @@
   margin-left: 0.5rem;
 }
 /* subscribe end */
+
+/* footer start */
+footer {
+  background-color: #000;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+.footer-txt-box {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6rem 0;
+  padding-bottom: 3rem;
+}
+.footer-txt-box h1 {
+  color: #fff;
+}
+.footer-txt-box h1 > span {
+  color: #e55473;
+}
+.footer-txt-box p {
+  color: #ffff;
+  opacity: 80%;
+  margin-top: 1rem;
+}
+footer hr {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #828282;
+}
+footer .copy {
+  color: #fff;
+  opacity: 50%;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  line-height: 30px;
+}
+/* footer end */
