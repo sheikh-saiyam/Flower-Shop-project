@@ -124,6 +124,43 @@
     margin-top: 1rem;
     opacity: 60%;
 }
-
+/* hot deal start */
+.hot-deal {
+    background-color: #e5547318;
+}
+.deal {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.deal-txt-box {
+    max-width: 560px;
+    text-align: center;
+}
+.deal-txt-box h2 {
+    font-size: 32px;
+    color: #272727;
+}
+.deal-txt-box h2 > span {
+    color: #E55473;
+}
+.deal-txt-box > button{
+    margin-top: 32px;
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.deal-img img{
+    width: 100%;
+    height: 350px;
+}
+/* hot deal end */
 
 

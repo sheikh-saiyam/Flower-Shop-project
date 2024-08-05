@@ -39,4 +39,16 @@
         grid-template-columns: 1fr;
         gap: 4rem;
     }
+    /* section 3 end */
+
+    /* hot deal start */
+    .deal {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .deal-txt-box h2 {
+        line-height: 40px;
+    }
+    /* hot deal end */
+
 }
