@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* shared style */
+.section-title {
+    text-align: center;
+    font-size: 38px;
+    color: #272727;
+}
+.section-description {
+    color: #272727;
+    opacity: 60%;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+/* banner start */
+.banner{   
+    background-color: #e5547318;
+}
+.banner .banner-main-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.banner-txt-box {
+    max-width: 708px;
+    margin-top: 6.5rem;
+}
+.banner-txt-box h1 {
+    font-size:70px;
+    color: #272727;
+    margin-bottom: 32px;
+}
+.banner-txt-box > button{
+    margin-top: 32px;
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.banner-img-box {
+    width: 100%;
+}
+.banner-img-box img {
+    height: 640px;
+}
+/* banner end  */
+/* featured start */
+.featured-flower {
+    width: 80%;
+    margin: 5rem auto ;
+} 
+.flower-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.flower-box >div{
+    width: 50%;
+}
+.flower-card img {
+    width: 100%;
+    height: 400px;
+}
+.flower-box .card-1 {
+    background-color: #F1DDE7;
+    padding: 3rem 4rem 0rem 4rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-box .card-2 {
+    background-color: #D9EFF0;
+    padding: 3rem 4rem 0rem 4rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-box .card-3 {
+    background-color: #E3EBDB;
+    padding: 3rem 4rem 0rem 4rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.flower-card h4 {
+    margin: 1rem 0;
+    font-size: 20px;
+    opacity: 80%;
+    text-decoration: underline;
+}
+/* featured end */
+/* section 3 start */
+.section3 {
+    width: 80%;
+    margin: 6rem auto ;
+}
+.parent-box {
+    background-color:#F4F4F4;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 4rem ; 
+}
+.child-box {
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+}
+.child-box h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #272727;
+    margin-top: 1rem;
+    opacity: 60%;
+}
+
+
+
