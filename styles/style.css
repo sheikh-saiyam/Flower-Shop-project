@@ -34,12 +34,13 @@
   margin-top: 6.5rem;
 }
 .banner-txt-box h1 {
-  font-size: 70px;
+  font-size: 4.5vw;
   color: #272727;
   margin-bottom: 32px;
 }
 .banner-txt-box > button {
   margin-top: 32px;
+  margin-bottom: 2vw;
   background-color: #e55473;
   color: #fff;
   border: none;
