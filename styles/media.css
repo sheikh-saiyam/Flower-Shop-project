@@ -1,4 +1,7 @@
 @media screen and (max-width:768px) {
+    .section-description > br {
+        display: none;
+    }
     /* banner start */
     .banner .banner-main-box {
         flex-direction: column-reverse;
@@ -51,4 +54,19 @@
     }
     /* hot deal end */
 
+    /* instagram start */
+    .instagram-img-box  {
+        flex-direction: column;
+    }
+    /* instagram end */
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .parent-box {
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .instagram-img-box {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
 }

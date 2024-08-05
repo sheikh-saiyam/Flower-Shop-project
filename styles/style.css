@@ -162,5 +162,22 @@
     height: 350px;
 }
 /* hot deal end */
+/* instagram start */
+.instagram {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+.instagram-img-box {
+    margin-top: 2rem;
+    display:flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.instagram-img-box div  img {
+    width: 100%;
+}
+/* instagram end */
 
 
